@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment 4</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+
+Sheridan College
+Course: SYST 10199
+Professor: Ellen Bajcar
+Author: Mariel Martinez
+
+Date created: July 20, 2018
+Date updated: July 28, 2018
+Version: 4.0
+Purpose: Assignment 4 for SYST 10199
+Description:
+    This page will play a game of Bingo
+
+-->
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Assignment 4</h1>
+        <h2>Bingo</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="craps.html">Casino Craps</a></li>
+            <li><a href="tictactoe.html">Tic Tac Toe</a></li>
+            <li class="current"><a href="bingo.html">Bingo</a></li>
+            <li><a href="concentration.html">Concentration</a></li>
+        </ul>
+    </nav>
+    <main>
+        <button>Generate New Card</button>
+        <button>Caller</button>
+        <table id="bingo">
+            <tr>
+                <th>B</th>
+                <th>I</th>
+                <th>N</th>
+                <th>G</th>
+                <th>O</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td id="free">FREE</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <address>Copyright &copy; Mariel Martinez</address>
+    </footer>
+<script src="../js/script.js"></script>
+<script>
+
+document.addEventListener("DOMContentLoaded", bingo.init);
+
+</script>
+</body>
+</html>
