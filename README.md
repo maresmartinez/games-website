@@ -3,7 +3,7 @@
 This application will play the following games: Casino Craps, 
 Tic Tac Toe, Bingo, and Memory (timed matching game).
 
-[View website here.](https://maresmartinez.github.io/games-website/content/craps.html)
+[View website here.](https://maresmartinez.github.io/games-website/index.html)
 
 ## Casino Craps
 ![Screenshot of the casino craps game](https://i.ibb.co/TtRCGgL/games-website-0.png)
